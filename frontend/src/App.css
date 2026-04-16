@@ -1,0 +1,135 @@
+body{
+  margin:0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #8ea6d9, #a8c7dc);
+}
+
+/* container */
+.container{
+  width:600px;
+  margin:auto;
+  margin-top:40px;
+  text-align:center;
+}
+
+/* title */
+.title{
+  color:#3b3b98;
+}
+
+/* tabs */
+.tabs{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  background:rgba(255,255,255,0.4);
+  padding:10px;
+  border-radius:12px;
+  width:fit-content;
+  margin:20px auto;
+}
+
+.tabs button{
+  padding:8px 16px;
+  border:none;
+  background:transparent;
+  cursor:pointer;
+}
+
+.tabs .active{
+  background:#4c3fcf;
+  color:white;
+  border-radius:8px;
+}
+
+/* form */
+.form{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  background:rgba(255,255,255,0.6);
+  padding:20px;
+  border-radius:12px;
+}
+
+/* inputs */
+input, textarea{
+  padding:10px;
+  border-radius:6px;
+  border:1px solid #ccc;
+}
+
+/* button */
+button{
+  padding:10px;
+  background:#4c3fcf;
+  color:white;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+/* card */
+.card{
+  background:#e9eef5;
+  padding:20px;
+  margin:20px auto;
+  width:400px;
+  border-radius:12px;
+}
+
+/* rating box */
+.rating-box{
+  background:#4c3fcf;
+  color:white;
+  padding:5px 10px;
+  border-radius:6px;
+  display:inline-block;
+  margin:10px 0;
+}
+
+/* dashboard */
+.dashboard{
+  background:rgba(255,255,255,0.6);
+  padding:20px;
+  border-radius:12px;
+  width:300px;
+  margin:auto;
+}
+
+/* ⭐ IMPORTANT FIX */
+.stars{
+  display:flex;
+  justify-content:center;
+  gap:8px;
+}
+
+.star{
+  font-size:30px;
+  cursor:pointer;
+  color:#ccc;
+  pointer-events: auto;   /* 🔥 THIS FIXES CLICK */
+}
+
+.star.active{
+  color:gold;
+}
+
+/* stars display */
+.stars-display {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+/* image */
+.feedback-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* comment */
+.comment {
+  margin-top: 10px;
+  font-size: 14px;
+}
